@@ -9,6 +9,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: var(--white);
   color: var(--slate);
 }
 
@@ -16,7 +17,7 @@ button {
   cursor: pointer;
 }
 
-.list-unmark {
+.list {
   list-style-type: none;
 }
 
@@ -26,15 +27,16 @@ button {
 
 .logotype-text {
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navyblue);
+  color: var(--iris);
 }
 
 .logotype-text-prefix {
-  color: var(--iris);
+  color: var(--navyblue);
 }
 
 .logotype-text-footer {
@@ -42,9 +44,10 @@ button {
 }
 
 .menu-link {
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: var(--navyblue);
 }
 
@@ -53,8 +56,11 @@ button {
   color: var(--ocean);
 }
 
-.address-link {
+.address-text {
   font-style: normal;
+}
+
+.address-link {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--slate);
@@ -69,6 +75,14 @@ button {
   background-color: var(--navyblue);
 }
 
+.light-background {
+  background-color: var(--cloud);
+}
+
+.card-backgound {
+  background-color: var(--white);
+}
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -78,9 +92,11 @@ button {
 }
 
 .order-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background-color: var(--iris);
   color: var(--white);
 }
@@ -91,9 +107,11 @@ button {
 }
 
 .filter-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background-color: var(--cloud);
   color: var(--iris);
 }
