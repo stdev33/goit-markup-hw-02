@@ -1,0 +1,138 @@
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --cloud: #f4f4fd;
+  --slate: #434455;
+  --ocean: #404bbf;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+}
+
+button {
+  cursor: pointer;
+}
+
+.list-unmark {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logotype-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--navyblue);
+}
+
+.logotype-text-prefix {
+  color: var(--iris);
+}
+
+.logotype-text-footer {
+  color: var(--cloud);
+}
+
+.menu-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--navyblue);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--ocean);
+}
+
+.address-link {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slate);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean);
+}
+
+.accent-background {
+  background-color: var(--navyblue);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  text-align: center;
+  color: var(--white);
+}
+
+.order-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background-color: var(--iris);
+  color: var(--white);
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: var(--ocean);
+}
+
+.filter-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background-color: var(--cloud);
+  color: var(--iris);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--navyblue);
+}
+
+.card-description {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.main-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navyblue);
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--cloud);
+}
